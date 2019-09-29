@@ -1,18 +1,12 @@
 public class Work {
-    private String name;
     private String job;
     private int salary;
     private int sector;
 
-    public Work(String name, String job, int salary, int sector) {
-        this.name = name;
+    public Work(String job, int salary, int sector) {
         this.job = job;
         this.salary = salary;
         this.sector = sector;
-    }
-
-    public String getName() {
-        return name;
     }
 
     public String getJob() {

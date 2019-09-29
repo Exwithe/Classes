@@ -6,8 +6,9 @@ public class Person {
     private String girlFriendsName;
     private Work work;
 
-
-
+    public Person(Work work) {
+        this.work = work;
+    }
 
     public Person(String name, int size, int iq, String girlFriendsName) {
         this.name = name;
